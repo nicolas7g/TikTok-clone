@@ -1,0 +1,13 @@
+.video{ 
+    background-color: white;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    scroll-snap-align: start; /*primero hay que setear scroll-snap-type en app.css. Esto permite el efecto snap, donde bajas un poco con el scroll y automaticamente te posiciona el video arriba de todo para que lo veas desde el marco superior y no con la pantalla cortada*/
+}
+
+.video__player{
+    object-fit:fill;
+    width: 100%;
+    height: 100%;
+}
